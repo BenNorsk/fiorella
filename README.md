@@ -15,14 +15,23 @@ For MacOS, use the following command to install it!
  
  # Documentation
  In order to write fiorella, use the following commands:
+ 
  ```fiorella```    Increase pointer.
+ 
  ```benjamin```    Decrease pointer.
- ```fiestas```     Inrease element under the pointer.
- ```bruckner```    Decrease element under the pointer.
+ 
+ ```fiestas```     Inrease the element under the pointer.
+ 
+ ```bruckner```    Decrease the element under the pointer.
+ 
  ```rimini```      Start a loop.
+ 
  ```amo```         End the loop.
- ```peru```        Print ASCII character of the element under the pointer.
+ 
+ ```peru```        Print the ASCII character of the element under the pointer.
+ 
  ```koala```       Read the character and store it.
+ 
 
  
  # Tutorial Hello World
