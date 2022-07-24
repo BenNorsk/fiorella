@@ -61,7 +61,7 @@ def translate_to_bf(fio_code):
 
 def create_and_execute_brainfuck_file(filename):
     with open(filename, 'r') as file:
-        fio_code = file.read().replace('\n', '')
+        fio_code = file.read().replace('\n', ' ')
     fiocode_statements = fio_code.split(" ")
     bf_code = translate_to_bf(fiocode_statements)
     os.system("touch temp_fio.bf")
