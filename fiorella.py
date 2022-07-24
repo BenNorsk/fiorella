@@ -90,7 +90,7 @@ def main():
         print("Else, write -c filename.bf to convert a .bf file into a .fiorella file")
         print("Else, write -v to see the current version of fiorella.")
     elif arg == "v" or arg == "-v":
-        print("fiorella, version 0.0.1")
+        print("fiorella, version 1.0.0")
     elif ".fiorella" in arg.lower():
         create_and_execute_brainfuck_file(arg)
     elif arg == "c" or arg == "-c":
