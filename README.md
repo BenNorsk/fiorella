@@ -1,6 +1,6 @@
 # Fiorella Code
 
-Hello everyone, welcome to the fiorella programming language!
+Hello everyone, welcome to Fiorella Code, the fiorella programming language!
 
 ## Install Fiorella Code
 
