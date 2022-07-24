@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Installing fiorella..."
 brew install brainfuck
-curl "https://raw.githubusercontent.com/BenNorsk/fiorella/273aa1fbe01768c6cd99438a70a369ddacb0a315/fiorella.py" --output fiorella.py
+curl "https://raw.githubusercontent.com/BenNorsk/fiorella/main/fiorella.py" --output fiorella.py
 mv fiorella.py ~/Documents/fiorella/fiorella.py
 echo "alias fiorella = 'python  ~/Documents/fiorella/fiorella.py'" >> ~/.zshsrc
 echo "Installation complete."
