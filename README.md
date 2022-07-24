@@ -2,6 +2,8 @@
 
 Hello everyone, welcome to the fiorella programming language!
 
+## Install Fiorella Code
+
 For MacOS, use the following command to install it!
  ```
  curl "https://raw.githubusercontent.com/BenNorsk/fiorella/main/install_fiorella.sh" --output install_fiorella.sh
@@ -10,6 +12,18 @@ For MacOS, use the following command to install it!
  rm install_fiorella.sh
  ```
  Once, you have it installed, use the command "fiorella" to run it. For further instructions on how to use and write the fiorella language, use "fiorella -h".
+ 
+ # Documentation
+ In order to write fiorella, use the following commands:
+ ```fiorella```    Increase pointer.
+ ```benjamin```    Decrease pointer.
+ ```fiestas```     Inrease element under the pointer.
+ ```bruckner```    Decrease element under the pointer.
+ ```rimini```      Start a loop.
+ ```amo```         End the loop.
+ ```peru```        Print ASCII character of the element under the pointer.
+ ```koala```       Read the character and store it.
+
  
  # Tutorial Hello World
  
