@@ -52,8 +52,12 @@ def translate_to_bf(fio_code):
     }
     for word in fio_code:
         if word != "":
-            bf_word = translation[word]
-            bf_code += bf_word
+            try: # if the word is not in the translation dictionary, it will throw an error
+                bf_word = translation[word]
+                bf_code += bf_word
+            except KeyError:
+                print(word + "' is not a valid keyword in fiorella.")
+                return()
     return bf_code
 
 
