@@ -2,19 +2,36 @@
 
 Hello everyone, welcome to Fiorella Code, the fiorella programming language!
 
-## Install Fiorella Code
+## Install Fiorella Code MacOS
+Fiorella Code is currently only available for MacOS. In order to install Fiorella Code on MacOS, you need to have as well ```homebrew``` and ```python ≥ 3.9``` installed.
 
-For MacOS, use the following command to install it!
+### Install Homebrew
+In order to install ```homebrew```, run the following command:
+ ```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ ```
+
+### Install Python
+In order to install ```python ≥ 3.9```, run the following command:
+ ```
+ brew install python
+ ```
+Lower versions of ```python``` might work, but they are not supported. 
+
+### Install Fiorella Code
+Now you are ready to install ```Fiorella Code```, by running the following command:
  ```
  curl "https://raw.githubusercontent.com/BenNorsk/fiorella/main/install_fiorella.sh" --output install_fiorella.sh
  chmod 777 install_fiorella.sh
  ./install_fiorella.sh
  rm install_fiorella.sh
  ```
- Once, you have it installed, use the command "fiorella" to run it. For further instructions on how to use and write the fiorella language, use "fiorella -h".
+ Once, you have it installed, use the command  ```fiorella```  to run it. For further instructions on how to use and write the fiorella language, use "fiorella -h".
  
  # Documentation
- In order to write fiorella, use the following commands:
+ Fiorella Code follows the logical model of a Turing machine. Each program starts with an "infinte" tape of individual elements (bytes). The pointer, at the beginning of the program, is pointed at the first element. You may then manipulate the value of the element (byte) or move the pointer to the left or right. Additionally, you may create loops, in the same manner as its sister language [https://gist.github.com/roachhd/dce54bec8ba55fb17d3a](Brainfuck). Finally, you may also print or read values from the terminal.
+ 
+ In order to write fiorella, you may use the following commands:
  
  ```fiorella```    Increase pointer.
  
