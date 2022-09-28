@@ -26,7 +26,7 @@ Now you are ready to install ```Fiorella Code```, by running the following comma
  ./install_fiorella.sh
  rm install_fiorella.sh
  ```
- Once, you have it installed, use the command  ```fiorella```  to run it. For further instructions on how to use and write the fiorella language, use "fiorella -h".
+ Once, you have it installed, use the command  ```fiorella```  to run it. For further instructions on how to use and write the fiorella language, use ```fiorella -h```.
  
  # Documentation
  Fiorella Code follows the logical model of a Turing machine. Each program starts with an "infinte" tape of individual elements (bytes). The pointer, at the beginning of the program, is pointed at the first element. You may then manipulate the value of the element (byte) or move the pointer to the left or right. Additionally, you may create loops, in the same manner as its sister language [https://gist.github.com/roachhd/dce54bec8ba55fb17d3a](Brainfuck). Finally, you may also print or read values from the terminal.
