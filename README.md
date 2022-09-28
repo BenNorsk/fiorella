@@ -1,5 +1,5 @@
 # Fiorella Code
-![Fiorella Code Logo](https://raw.githubusercontent.com/BenNorsk/fiorella/main/fiorella.png)
+ <img width="160" height="160" src="[https://raw.githubusercontent.com/BenNorsk/DonElonAI/main/images/appicon_transparent.svg](https://raw.githubusercontent.com/BenNorsk/fiorella/main/fiorella.png)">
 
 Hello everyone, welcome to Fiorella Code, the fiorella programming language!
 
