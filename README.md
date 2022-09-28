@@ -1,4 +1,5 @@
 # Fiorella Code
+![Fiorella Code Logo](https://raw.githubusercontent.com/BenNorsk/fiorella/main/fiorella.png)
 
 Hello everyone, welcome to Fiorella Code, the fiorella programming language!
 
